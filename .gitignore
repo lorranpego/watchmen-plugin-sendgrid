@@ -1,0 +1,23 @@
+logs/
+.monitor
+.DS_Store
+node_modules/*
+
+# Don't ignore file changed on module
+!*/watchmen-plugin-nodemailer/
+*/watchmen-plugin-nodemailer/node_modules
+*/watchmen-plugin-nodemailer/templates
+*/watchmen-plugin-nodemailer/.npmignore
+*/watchmen-plugin-nodemailer/CHANGELOG
+*/watchmen-plugin-nodemailer/package.json
+*/watchmen-plugin-nodemailer/README.md
+
+*.rdb
+.idea/
+webserver/public/bower_components/
+terraform/digital-ocean/*.tfstate
+terraform/digital-ocean/*.tfstate.backup
+.directory
+.env
+package-lock.json
+
