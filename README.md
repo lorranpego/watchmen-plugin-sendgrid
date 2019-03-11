@@ -1,7 +1,7 @@
 # watchmen-plugin-sendgird
 
-A plugin for [watchmen](https://github.com/iloire/watchmen) to send message
-notifications on service events via ChatBot (preferably Google).
+A plugin for [watchmen](https://github.com/iloire/watchmen) to send
+email notifications making use of SendGrid.
 
 ## Templates
 
