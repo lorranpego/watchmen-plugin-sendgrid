@@ -99,8 +99,6 @@ function handleEvent(eventName)
 {
   return function(service, data) 
   {
-
-    console.log(templates);
     // Don't bother if there's no template
     if (!(eventName in templates.body)) {
       return;

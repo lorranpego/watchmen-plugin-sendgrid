@@ -19,6 +19,7 @@
     "nodemailer": "^4.1.0",
     "nodemailer-sendgrid-transport": "^0.2.0"
   },
+  "license": "MIT",
   "keywords": [
     "notification",
     "watchmen",
