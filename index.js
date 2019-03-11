@@ -39,7 +39,7 @@ function get_templates(base_directory)
       templates[parent_dir] = {};
     }
     templates[parent_dir][parts.name] = handlebars.compile(contents.toString());
-    console.log('Found ' + parent_dir + ' template for ' + parts.name);
+    console.log('Sendgrid Plugin: Found ' + parent_dir + ' template for ' + parts.name);
   });
 
   return templates;
@@ -100,6 +100,7 @@ function handleEvent(eventName)
   return function(service, data) 
   {
 
+    console.log(templates);
     // Don't bother if there's no template
     if (!(eventName in templates.body)) {
       return;
