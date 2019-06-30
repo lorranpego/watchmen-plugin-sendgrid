@@ -29,11 +29,11 @@ at `templates/body/latency-warning.hbs` and restart watchmen.
 Templates are passed a `service` object and a `data` object. The `data` object
 contains the second argument of the event, usually data on the current or last
 outage. See what the events get passed
-[here: https://github.com/iloire/watchmen/blob/master/README.md#creating-your-own-plugin](https://github.com/iloire/watchmen/blob/master/README.md#creating-your-own-plugin)
+[here: Creating Your Own Plugin](https://github.com/iloire/watchmen/blob/master/README.md#creating-your-own-plugin)
 
 ## Environment variables
 
-The following sample configures the chabot end-point and specifies a custom template
+The following sample configures the Sendgrid information and specifies a custom template
 directory—overriding the default included templates as explained above.
 
 ```
