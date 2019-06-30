@@ -1,6 +1,6 @@
 {
   "name": "watchmen-plugin-sendgrid",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Notifications via email using sendgrid for Watchmen",
   "main": "index.js",
   "repository": {
